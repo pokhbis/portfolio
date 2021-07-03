@@ -6,7 +6,7 @@ h1
 .headerName{
     color: orange;
 }
-section
+.flexible-container
 {
     display: flex;
     margin-bottom: 150px;
@@ -43,4 +43,34 @@ body{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.experiance
+{
+    width: 40%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+
+}
+
+.web-dev img
+{
+    background-image: url(images/exp-bg.png);
+}
+#ex-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+
+}
+#j-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(11, 11, 95), blue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
